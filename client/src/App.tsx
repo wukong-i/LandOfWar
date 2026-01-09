@@ -92,7 +92,7 @@ function App() {
         fontSize: '48px',
         color: '#1a1a1a',
         marginBottom: '30px'
-      }}>Flavortown Game</h1>
+      }}>Land Of War</h1>
       
       <StickyNote color="blue" style={{ marginBottom: '20px', maxWidth: '300px' }}>
         <p style={{ margin: 0 }}>
@@ -389,3 +389,4 @@ function App() {
 }
 
 export default App;
+
