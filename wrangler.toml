@@ -1,0 +1,13 @@
+# Cloudflare Pages configuration
+name = "flavortown-client"
+compatibility_date = "2024-01-09"
+
+[build]
+command = "cd client && pnpm build"
+cwd = "."
+watch_dir = "client"
+
+[build.upload]
+format = "modules"
+dir = "client/dist"
+main = "./index.js"
